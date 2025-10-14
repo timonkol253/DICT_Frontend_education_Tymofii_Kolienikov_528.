@@ -729,26 +729,6 @@ nav a {
     cursor: pointer;
 }
 
-.social-icon.telegram {
-    background: #0088cc;
-}
-
-.social-icon.whatsapp {
-    background: #25D366;
-}
-
-.social-icon.facebook {
-    background: #1877f2;
-}
-
-.social-icon.linkedin {
-    background: #0077b5;
-}
-
-.social-icon.instagram {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-}
-
 .social-icon svg {
     width: 18px;
     height: 18px;
