@@ -1,60 +1,454 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафедра ІТ</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Homepage | Department of Information and
-        Communication Technologies</title>
 </head>
-
 <body>
-<nav>
-    <ul>
-        <li><a href="#specialties">Спеціальності</a></li>
-        <li><a href="#science">Наука</a></li>
-        <li><a href="#news">Новини</a></li>
-        <li><a href="#contact">Контакти</a></li>
-    </ul>
-</nav>
-<h1>Створюй майбутнє. Тут і зараз!</h1>
-<p>
-    Вибери не просто освіту - обери шлях до свого технологічного майбутнього!
-    Кафедра ІКТ ХАІ - це місце, де ідеї
-    стають реальністю, а знання відкривають двері до кар’єри мрії. Почни свій
-    шлях вже сьогодні!
-</p>
-<h2 id="specialties">Наші спеціальності</h2>
-<p>
-    Ми спеціалізуємось на підготовці фахівців в області мережевих, програмних
-    та інформаційних технологій за двома
-    напрямками 172 - Електронні комунікації та радіотехніка і 126 -
-    Інформаційні системи та технології.
-</p>
-<h2>Якщо в числах</h2>
-<h2 id="science">Наука та інновації</h2>
-<p>Від аудиторії — до реального проєкту</p>
-<p>
-    Наші студенти не просто вивчають теорію — вони беруть участь у реальних
-    проєктах, розробляють ІТ-рішення,
-    створюють стартапи та співпрацюють з компаніями-партнерами. На кафедрі
-    діють наукові гуртки, лабораторії та
-    ініціативи, де кожен може реалізувати себе ще під час навчання.
-    Дослідження, що перетворюються на продукт —
-    саме тут це можливо.
-</p>
-<h2>Нам довіряють</h2>
-<h2 id="contact">Контакти</h2>
-<p>61070, Харків, вул. Вадима Манька, 17</p>
-<p>НАУ ім. М.Є.Жуковського "ХАІ"</p>
-<p>Кафедра інформаційно-комунікаційних технологій No504</p>
-<h2 id="news">Новини</h2>
-<p><a href="mailto:k504@khai.edu">k504@khai.edu</a></p>
-<p>
-    <a href="tel:+380995025775">+38 (099) 502-57-75</a>
-</p>
-<script src="js/main.js"></script>
+<!-- Header -->
+<header>
+    <div class="container">
+        <a href="#" class="logo">D<span>//</span>ICT</a>
+
+        <nav>
+            <a href="#specialnosti">СПЕЦІАЛЬНОСТІ</a>
+            <a href="#nauka">НАУКА</a>
+            <a href="#novyny">НОВИНИ</a>
+            <a href="#kontakty">КОНТАКТИ</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg>
+            </div>
+
+            <div class="language-switcher">
+                <a href="#" class="lang-option active">UA</a>
+                <span class="lang-divider">/</span>
+                <a href="#" class="lang-option">EN</a>
+                <div class="globe-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Створюй майбутнє.<br>Тут і зараз!</h1>
+                <p>Вибери не просто освіту — обери шлях до своєї технологічної можливості! Кафедра ІКТ ХАІ — це місце, де ідеї стають реальністю, а знання відкривають двері до майбутнього. Почни свій шлях вже сьогодні!</p>
+                <button class="cta-button">Хочу поступити</button>
+            </div>
+            <div class="hero-image">
+                <img src="assets/boy.png">
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+<section class="specialties-section">
+    <div class="specialties-section">
+        <h2>Наші спеціальності</h2>
+        <p>Ми спеціалізуємось на підготовці фахівців в областях інженерних, програмових та інформаційних технологій за ідеальна напрямками: 172 - Електронні комунікації та радіотехніка | 126 - Інформаційні системи та технології</p>
+
+        <div class="cards-container">
+            <div class="specialty-card">
+                <div class="specialty-number">126</div>
+                <div class="specialty-title">«Інформаційні системи і технології»</div>
+            </div>
+
+            <div class="specialty-card">
+                <div class="specialty-number">172</div>
+                <div class="specialty-title">«Електронні комунікації та радіотехніка»</div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="testimonials">
+        <div class="stats-section">
+            <h2>Якщо в числах</h2>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Досвідчених викладачів</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">65</div>
+                    <div class="stat-label">Навчальних дисциплін</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">1200+</div>
+                    <div class="stat-label">Талановитих випускників</div>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Унікального досвіду</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="reviews-section">
+            <div class="reviews-header">
+                <h2>#D<span>//</span>CTExperience</h2>
+                <div class="reviews-navigation">
+                    <div class="nav-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                        </svg>
+                    </div>
+                    <div class="nav-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-container">
+                <div class="review-card">
+                    <span class="audio-icon">🎵</span>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="assets/audio.mp3" type="audio/mpeg" />
+                        </audio>
+                    </div>
+                    <div class="review-author">
+                        <div class="author-avatar">
+                            <svg width="45" height="45" viewBox="0 0 45 45">
+                                <circle cx="22.5" cy="22.5" r="22.5" fill="#666"/>
+                                <circle cx="22.5" cy="18" r="8" fill="#888"/>
+                                <path d="M22.5 28c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="#888"/>
+                            </svg>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Firstnome Lastnome</div>
+                            <div class="author-position">Position title, Company name</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <p class="review-text">"Office ipsum you must be muted. Marginalized finish lazy task launch use these queue high. Post polished product I would hop hop golden this root. Can you main prioritize best swimianen chroncorn invanroom. Baseline hammer coming point intuititve have coming point."</p>
+                    <div class="review-author">
+                        <div class="author-avatar">
+                            <svg width="45" height="45" viewBox="0 0 45 45">
+                                <circle cx="22.5" cy="22.5" r="22.5" fill="#4a90e2"/>
+                                <circle cx="22.5" cy="18" r="8" fill="#fff"/>
+                                <path d="M22.5 28c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="#fff"/>
+                            </svg>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Firstnome Lastnome</div>
+                            <div class="author-position">Position title, Company name</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <p class="review-text">"Office ipsum you must be muted. Meet-s-shaped finish lazy task info company denuts epacks knoledge."</p>
+                    <div class="review-author">
+                        <div class="author-avatar">
+                            <svg width="45" height="45" viewBox="0 0 45 45">
+                                <circle cx="22.5" cy="22.5" r="22.5" fill="#666"/>
+                                <circle cx="22.5" cy="18" r="8" fill="#888"/>
+                                <path d="M22.5 28c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="#888"/>
+                            </svg>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Firstnome Lastnome</div>
+                            <div class="author-position">Position title, Company name</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <p class="review-text">"Office ipsum you must be muted. Meet-s-shaped finish lazy task info company denuts epacks knoledge. Post polished product I would muted."</p>
+                    <div class="review-author">
+                        <div class="author-avatar">
+                            <svg width="45" height="45" viewBox="0 0 45 45">
+                                <circle cx="22.5" cy="22.5" r="22.5" fill="#666"/>
+                                <circle cx="22.5" cy="18" r="8" fill="#888"/>
+                                <path d="M22.5 28c-8 0-14 4-14 8v4h28v-4c0-4-6-8-14-8z" fill="#888"/>
+                            </svg>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Firstnome Lastnome</div>
+                            <div class="author-position">Position title, Company name</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="science-section">
+        <div class="science-section">
+            <img src="assets/science.png" alt="">
+        </div>
+    </section>
+    <section class="partners-section">
+        <div class="partners-section">
+            <h2>Нам довіряють</h2>
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <div class="logo-nix">nix</div>
+                </div>
+
+                <div class="partner-logo">
+                    <div class="logo-sigma">sigma</div>
+                </div>
+
+                <div class="partner-logo">
+                    <div class="logo-globallogic">GlobalLogic</div>
+                </div>
+
+                <div class="partner-logo">
+                    <div class="logo-epam">&lt;EPAM&gt;</div>
+                </div>
+
+                <div class="partner-logo">
+                    <div class="logo-softserve">soft<span>serve</span></div>
+                </div>
+
+                <div class="partner-logo">
+                    <div class="logo-dataart">DataArt</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts-section">
+        <div class="contacts-section">
+            <div class="contacts-container">
+                <h2>Контакти</h2>
+                <div class="contacts-address">
+                    61070, Харків, вул. Вадима Манька, 17<br>
+                    ХАУ ім. М.Є.Жуковського "ХАІ"<br>
+                    Кафедра інформаційно-комунікаційних технологій №504
+                </div>
+
+                <div class="contacts-grid">
+                    <div class="contact-column">
+                        <h3>Телефон</h3>
+                        <div class="contact-item">(057)-788-43-62</div>
+                        <div class="contact-item">+38 (99) 520-8235</div>
+                        <div class="contact-note">в будні дні з 9:00 до 17:00</div>
+                    </div>
+
+                    <div class="contact-column">
+                        <h3>Social</h3>
+                        <div class="social-icons">
+                            <div class="social-icon telegram">
+                                <img src="assets/telegram.svg" alt="">
+                            </div>
+                            <div class="social-icon whatsapp">
+                                <img src="assets/viber.svg" alt="">
+                            </div>
+                            <div class="social-icon facebook">
+                                <img src="assets/fb.svg" alt="">
+                            </div>
+                            <div class="social-icon linkedin">
+                                <img src="assets/in.svg" alt="">
+                            </div>
+                            <div class="social-icon instagram">
+                                <img src="assets/instagram.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-column">
+                        <h3>Пошта</h3>
+                        <div class="contact-item">telecom.xai@gmail.com</div>
+                        <div class="contact-item">ikt@khai.edu</div>
+                        <div class="contact-item">hr@khai.edu</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news" id="news">
+        <div class="news-container">
+            <div class="news-header">
+                <h2 class="news-title">Новини</h2>
+                <div class="news-navigation">
+                    <button class="nav-arrow" onclick="slideNews('prev')">←</button>
+                    <button class="nav-arrow" onclick="slideNews('next')">→</button>
+                </div>
+            </div>
+
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img
+                                src="assets/1.png"
+                                alt="AI Technology"
+                        />
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-headline">
+                            Office ipsum you must be muted. Mint it shop us
+                        </h3>
+                        <p class="news-description">
+                            Office ipsum you must launch one throw power high find upward
+                            product market! Mint it-shaped finish very salt info company
+                            donuts sources knowledge. Rice fellow what best...
+                        </p>
+                        <span class="news-date">IP Jan 2025</span>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img
+                                src="assets/2.png"
+                                alt="Technology"
+                        />
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-headline">
+                            Office ipsum you must be muted impact finish very salt
+                        </h3>
+                        <p class="news-description">
+                            Office ipsum you must be muted launch one throw power high
+                            find upward product market! Based red prioritize test
+                            intersection bonjours. Move synergize crystallize idea comes
+                            point...
+                        </p>
+                        <span class="news-date">IP Jan 2025</span>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <img
+                                src="assets/3.png"
+                                alt="Circuit Board"
+                        />
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-headline">
+                            Office ipsum you must be muted. Mint it shop us
+                        </h3>
+                        <p class="news-description">
+                            Office ipsum you must be muted launch one throw power high
+                            find upward product market! Mint it-shaped finish very salt
+                            info company donuts sources knowledge. Rice fellow what
+                            best...
+                        </p>
+                        <span class="news-date">IP Jan 2025</span>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <div class="news-image">
+                        <video autoplay loop muted playsinline>
+                            <source src="assets/video.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div class="news-content">
+                        <h3 class="news-headline">
+                            Office ipsum you must be muted. Mint it shop us
+                        </h3>
+                        <p class="news-description">
+                            Office ipsum you must be muted launch one throw power high
+                            find upward product market! Mint it-shaped finish very salt
+                            info company donuts sources knowledge. Rice fellow what
+                            best...
+                        </p>
+                        <span class="news-date">IP Jan 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-cta-container">
+                <a href="#" class="news-cta">Більше новин</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <p class="footer-address">
+                61070, Харків, вул. Вадима Манька, 17<br />
+                НАУ ім. М.Є.Жуковського "ХАІ"<br />
+                Кафедра інформаційно-комунікаційних технологій №504
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <a href="#" class="footer-logo">D//<span>ICT</span></a>
+            <div class="footer-social">
+                <a href="#" class="footer-social-icon telegram" title="Telegram">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-icon twitter" title="Twitter">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-icon facebook" title="Facebook">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-icon linkedin" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="footer-social-icon instagram" title="Instagram">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                        />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <a href="tel:+380577964367" class="footer-phone">(057) 796-43-67</a>
+            <a href="tel:+380971201373" class="footer-phone">(097) 120-13-73</a>
+            <a href="mailto:admin@xai.com" class="footer-email-link">
+                <svg
+                        class="footer-email-icon"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                            d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    />
+                </svg>
+                k504@khai.edu
+            </a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
