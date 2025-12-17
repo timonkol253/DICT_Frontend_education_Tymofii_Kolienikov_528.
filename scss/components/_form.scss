@@ -1,0 +1,161 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../variables/breakpoints";
+@import "../abstractions/mixins";
+
+.form {
+  background-color: $color-dark-bg;
+  padding: 60px 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $color-dark-bg;
+}
+
+.form-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.image-form {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.content-wrapper {
+  flex: 1;
+  background-color: $color-dark-bg;
+  padding: 60px 80px;
+  color: $color-text-primary;
+}
+
+.form-title {
+  font-size: $font-size-3xl;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  margin: 0 0 40px 0;
+  letter-spacing: 2px;
+}
+
+.webform {
+  max-width: 600px;
+}
+
+.item-form {
+  margin-bottom: 35px;
+
+  label {
+    display: block;
+    font-size: $font-size-base;
+    color: $color-text-primary;
+    margin-bottom: 10px;
+    font-weight: $font-weight-normal;
+  }
+}
+
+.form-text,
+.form-tel,
+.form-email {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $color-text-quaternary;
+  color: $color-text-primary;
+  font-size: $font-size-base;
+  padding: 8px 0;
+  outline: none;
+  box-sizing: border-box;
+  @include transition;
+
+  &::placeholder {
+    color: $color-text-quaternary;
+    font-size: $font-size-sm;
+  }
+
+  &:focus {
+    border-bottom-color: $color-text-light;
+  }
+}
+
+.form-textarea-wrapper {
+  width: 100%;
+}
+
+.form-textarea {
+  width: 100%;
+  background-color: $color-dark-secondary;
+  border: 1px solid $color-border;
+  color: $color-text-primary;
+  font-size: $font-size-base;
+  padding: 12px;
+  outline: none;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: $font-family-secondary;
+  min-height: 120px;
+  @include transition;
+
+  &:focus {
+    border-color: $color-text-quaternary;
+  }
+}
+
+.form-actions {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.webform-button {
+  background-color: #d4d4d4;
+  color: $color-dark-bg;
+  border: none;
+  padding: 12px 40px;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include transition;
+
+  &:hover {
+    background-color: #e4e4e4;
+  }
+}
+
+@include tablet-up {
+  .form-body {
+    flex-direction: column;
+  }
+
+  .content-wrapper {
+    padding: 40px 30px;
+  }
+}
+
+@include mobile-only {
+  .content-wrapper {
+    padding: 30px 20px;
+  }
+
+  .form-title {
+    font-size: $font-size-2xl;
+  }
+
+  .image-form {
+    display: none;
+  }
+
+  .form-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

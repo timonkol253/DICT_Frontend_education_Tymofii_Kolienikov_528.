@@ -1,0 +1,57 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+.stats-section {
+  background: $color-header-bg;
+  padding: 60px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  h2 {
+    @include heading($font-size-4xl);
+    margin-bottom: 50px;
+  }
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  text-align: center;
+  position: relative;
+  padding: 10px;
+
+  &:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 80px;
+    background: $color-primary;
+  }
+}
+
+.stat-number {
+  font-size: $font-size-11xl;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: $font-size-base;
+  color: $color-text-tertiary;
+  line-height: $line-height-normal;
+  max-width: 120px;
+  margin: 0 auto;
+}

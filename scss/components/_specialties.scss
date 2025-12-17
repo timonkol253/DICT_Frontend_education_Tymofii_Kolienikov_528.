@@ -1,0 +1,76 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+.specialties-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 80px;
+  text-align: center;
+
+  h2 {
+    @include heading($font-size-8xl);
+    margin-bottom: 20px;
+  }
+
+  > p {
+    font-size: $font-size-base;
+    color: $color-text-tertiary;
+    line-height: $line-height-loose;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.specialty-card {
+  background: $color-dark-tertiary;
+  border: 1px solid #8E8E8E;
+  border-radius: 20px;
+  padding: 20px;
+  width: 480px;
+  text-align: left;
+  position: relative;
+  @include transition;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>') no-repeat center;
+    background-size: contain;
+    opacity: 0.3;
+    @include transition;
+  }
+}
+
+.specialty-number {
+  font-size: $font-size-12xl;
+  font-weight: $font-weight-bold;
+  color: $color-text-primary;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.specialty-title {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-medium;
+  color: $color-text-primary;
+  line-height: $line-height-normal;
+}

@@ -1,0 +1,122 @@
+// Основні міксини
+@import "../variables/breakpoints";
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+
+// Міксин для флекс-контейнера
+@mixin flex-center($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
+
+// Міксин для гріду
+@mixin grid-center {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+// Міксин для позиціонування
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Міксин для переходів
+@mixin transition($property: all, $duration: 0.3s, $timing: ease) {
+  transition: $property $duration $timing;
+}
+
+// Міксин для текстового обрізання
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Міксин для фокусу
+@mixin focus-ring($color: $color-primary) {
+  outline: 2px solid $color;
+  outline-offset: 2px;
+}
+
+// Міксин для кнопок
+@mixin button-reset {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+
+  &:focus {
+    @include focus-ring;
+  }
+}
+
+// Міксин для контейнера
+@mixin container($padding: 20px) {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Міксин для заголовків
+@mixin heading($size: $font-size-5xl, $weight: $font-weight-bold) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color-text-primary;
+}
+
+// Міксин для затінення
+@mixin box-shadow($shadow: 0 2px 8px rgba(0, 0, 0, 0.1)) {
+  box-shadow: $shadow;
+}
+
+// Міксин для меню
+@mixin nav-item {
+  color: $color-text-primary;
+  text-decoration: none;
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  @include transition(color);
+  font-weight: $font-weight-medium;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+// Міксини для медіа-запитів
+@mixin mobile-only {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet-up {
+  @media (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin large-up {
+  @media (min-width: $breakpoint-large) {
+    @content;
+  }
+}

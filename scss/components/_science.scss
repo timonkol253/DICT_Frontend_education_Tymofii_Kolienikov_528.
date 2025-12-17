@@ -1,0 +1,158 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+.science-section {
+  background: $color-dark-quaternary;
+  padding: 60px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.science-graphics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex: 1;
+
+  .graphic-card {
+    background: $color-header-bg;
+    border: 1px solid $color-border;
+    padding: 25px;
+
+    &:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+.graphic-header {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.graphic-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: $color-text-muted;
+}
+
+.bars-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  height: 80px;
+}
+
+.bar {
+  flex: 1;
+  background: $color-primary;
+  border-radius: 3px 3px 0 0;
+  @include transition;
+
+  &:nth-child(1) { height: 60%; }
+  &:nth-child(2) { height: 85%; }
+  &:nth-child(3) { height: 45%; }
+  &:nth-child(4) { height: 70%; }
+  &:nth-child(5) { height: 95%; }
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.donut-chart {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: conic-gradient($color-primary 0% 65%, $color-text-muted 65% 100%);
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: $color-header-bg;
+    border-radius: 50%;
+  }
+}
+
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: $font-size-xs;
+  color: $color-text-tertiary;
+}
+
+.legend-line {
+  width: 30px;
+  height: 2px;
+  background: $color-text-muted;
+}
+
+.science-content {
+  flex: 1;
+
+  h2 {
+    @include heading($font-size-6xl);
+    margin-bottom: 25px;
+    line-height: $line-height-tight;
+  }
+
+  h3 {
+    font-size: $font-size-xl;
+    font-weight: $font-weight-semibold;
+    color: $color-text-primary;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: $font-size-base;
+    color: #bbb;
+    line-height: $line-height-loose;
+    margin-bottom: 30px;
+  }
+}
+
+.science-button {
+  background: $color-primary;
+  color: $color-text-primary;
+  font-size: $font-size-base;
+  font-weight: $font-weight-medium;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  @include transition;
+
+  &:hover {
+    background: $color-primary-dark;
+  }
+}

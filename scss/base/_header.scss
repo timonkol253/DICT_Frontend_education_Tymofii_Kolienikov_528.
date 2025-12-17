@@ -1,0 +1,85 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+header {
+  background-color: $color-header-bg;
+  padding: 20px 0;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: $font-size-7xl;
+    font-weight: $font-weight-bold;
+    color: $color-text-primary;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    span {
+      color: $color-primary;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    a {
+      @include nav-item;
+    }
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .search-icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+
+    svg {
+      fill: $color-text-primary;
+      @include transition(fill);
+    }
+  }
+
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .lang-option {
+      color: $color-text-primary;
+      text-decoration: none;
+      font-size: $font-size-sm;
+      text-transform: uppercase;
+      font-weight: $font-weight-medium;
+    }
+
+    .lang-divider {
+      color: $color-text-light;
+      font-size: $font-size-sm;
+    }
+  }
+
+  .globe-icon {
+    width: 20px;
+    height: 20px;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
+}
