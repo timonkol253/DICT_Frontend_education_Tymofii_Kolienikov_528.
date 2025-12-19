@@ -1,0 +1,139 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../variables/breakpoints";
+@import "../abstractions/mixins";
+
+footer {
+  background-color: #0f0f0f;
+  padding: 40px 20px;
+  border-top: 1px solid $color-border-light;
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-address {
+    color: $color-text-quaternary;
+    font-size: 0.9rem;
+    line-height: $line-height-relaxed;
+  }
+
+  .footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .footer-logo {
+      font-size: 1.8rem;
+      font-weight: $font-weight-bold;
+      color: $color-text-primary;
+      text-decoration: none;
+
+      span {
+        color: $color-primary;
+      }
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 12px;
+    }
+  }
+
+  .footer-social-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    @include flex-center;
+    cursor: pointer;
+    text-decoration: none;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: white;
+    }
+
+    &.telegram {
+      background-color: #0088cc;
+    }
+
+    &.twitter {
+      background-color: #1da1f2;
+    }
+
+    &.facebook {
+      background-color: #1877f2;
+    }
+
+    &.linkedin {
+      background-color: #0077b5;
+    }
+
+    &.instagram {
+      background: linear-gradient(
+                      45deg,
+                      #f09433 0%,
+                      #e6683c 25%,
+                      #dc2743 50%,
+                      #cc2366 75%,
+                      #bc1888 100%
+      );
+    }
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+
+    .footer-phone {
+      color: $color-text-quaternary;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: block;
+    }
+
+    .footer-email-link {
+      color: $color-primary;
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .footer-email-icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  @include mobile-only {
+    .footer-container {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      text-align: center;
+    }
+
+    .footer-left,
+    .footer-right,
+    .footer-center {
+      align-items: center;
+    }
+  }
+}

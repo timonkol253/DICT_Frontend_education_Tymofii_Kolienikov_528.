@@ -1,0 +1,106 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+.partners-section {
+  background: $color-dark-quaternary;
+  padding: 80px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+
+  h2 {
+    @include heading($font-size-6xl);
+    margin-bottom: 60px;
+  }
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include transition;
+  opacity: 0.4;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// Логотипи партнерів
+.logo-nix {
+  font-size: $font-size-10xl;
+  font-weight: $font-weight-light;
+  color: $color-text-quaternary;
+  font-family: $font-family-secondary;
+  letter-spacing: 3px;
+}
+
+.logo-sigma {
+  font-size: $font-size-6xl;
+  font-weight: $font-weight-semibold;
+  color: $color-text-quaternary;
+  font-family: $font-family-secondary;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 18px solid $color-text-quaternary;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+}
+
+.logo-globallogic {
+  font-size: $font-size-2xl;
+  font-weight: $font-weight-normal;
+  color: $color-text-quaternary;
+  font-family: $font-family-secondary;
+
+  &::first-letter {
+    font-weight: $font-weight-semibold;
+  }
+}
+
+.logo-epam {
+  font-size: $font-size-7xl;
+  font-weight: $font-weight-light;
+  color: $color-text-quaternary;
+  font-family: $font-family-monospace;
+  letter-spacing: 8px;
+}
+
+.logo-softserve {
+  font-size: $font-size-5xl;
+  font-weight: $font-weight-light;
+  color: $color-text-quaternary;
+  font-family: $font-family-secondary;
+
+  span {
+    font-weight: $font-weight-bold;
+  }
+}
+
+.logo-dataart {
+  font-size: $font-size-6xl;
+  font-weight: $font-weight-bold;
+  color: $color-text-quaternary;
+  font-family: $font-family-secondary;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

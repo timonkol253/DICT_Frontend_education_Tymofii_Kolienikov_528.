@@ -1,0 +1,93 @@
+@import "../variables/colors";
+@import "../variables/fonts";
+@import "../variables/typography";
+@import "../abstractions/mixins";
+
+.contacts-section {
+  background: $color-dark-bg;
+  padding: 80px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contacts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    @include heading($font-size-6xl);
+    margin-bottom: 30px;
+  }
+}
+
+.contacts-address {
+  font-size: $font-size-base;
+  color: #bbb;
+  line-height: $line-height-loose;
+  margin-bottom: 50px;
+}
+
+.contacts-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-column {
+  flex: 1;
+  text-align: center;
+
+  h3 {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-semibold;
+    color: $color-text-quaternary;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+.contact-item {
+  font-size: $font-size-base;
+  color: $color-primary;
+  margin-bottom: 8px;
+  @include transition;
+
+  &:hover {
+    color: $color-primary-dark;
+  }
+}
+
+.contact-note {
+  font-size: $font-size-xs;
+  color: $color-text-light;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  @include flex-center;
+  @include transition;
+  cursor: pointer;
+
+  img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

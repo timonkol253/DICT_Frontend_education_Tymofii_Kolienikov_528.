@@ -1,0 +1,23 @@
+// Імпорт змінних та абстракцій
+@import "variables/breakpoints";
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/typography";
+@import "abstractions/mixins";
+
+// Імпорт базових стилів
+@import "base/general";
+@import "base/header";
+@import "base/footer";
+
+// Імпорт компонентів
+@import "components/feedbacks";
+@import "components/in-numbers";
+@import "components/news";
+@import "components/specialties";
+@import "components/hero";
+@import "components/science";
+@import "components/partners";
+@import "components/contacts";
+@import "components/course";
+@import "components/form";
