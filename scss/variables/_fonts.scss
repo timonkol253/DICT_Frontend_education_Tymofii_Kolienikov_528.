@@ -1,9 +1,12 @@
-// Шрифти та типографія
-$font-family-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-$font-family-secondary: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap');
+
+$geologica: 'Geologica', sans-serif;
+$comfortaa: 'Comfortaa', sans-serif;
+
+$font-family-primary: $comfortaa;
+$font-family-secondary: $geologica;
 $font-family-monospace: 'Courier New', monospace;
 
-// Вагальності шрифтів
 $font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-medium: 500;

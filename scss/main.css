@@ -1,17 +1,2285 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 18 | @import "components/hero";
- *    |         ^^^^^^^^^^^^^^^^^
- *    '
- *   main.scss 18:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 18 \2502  @import \"components/hero\";\d\a    \2502          ^^^^^^^^^^^^^^^^^\a    \2575 \a   main.scss 18:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+:root {
+  --primary-color: #1d1d1d;
+  --primary-text-color: #f8f8f8;
+  --red-color: #ff3b39;
+  --red-hover-color: #ff1a18;
+  --grey-color: #7c7c7c;
+  --silver-color: #bfbfbf;
+}
+
+[data-theme=light] {
+  --primary-color: #f8f8f8;
+  --primary-text-color: #1d1d1d;
+  --red-color: #ff3b39;
+  --red-hover-color: #ff1a18;
+  --grey-color: #7c7c7c;
+  --silver-color: #bfbfbf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  background: var(--primary-color);
+  color: var(--primary-text-color);
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  color: var(--primary-text-color);
+}
+
+a {
+  color: var(--red-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: var(--red-hover-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text-color);
+  font-family: "Geologica", sans-serif;
+}
+
+.button, button {
+  background: var(--red-color);
+  color: var(--primary-text-color);
+  width: fit-content;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin: 40px 0;
+  border: 1px solid var(--red-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button p, button p {
+  margin: 0;
+}
+.button:hover, button:hover {
+  background: var(--red-hover-color);
+  border-color: var(--red-hover-color);
+}
+.button:focus, button:focus {
+  background: var(--primary-color);
+}
+
+input, textarea, select {
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+header {
+  background-color: #2b2b2b;
+  padding: 20px 0;
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+header .logo span {
+  color: var(--red-color);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+header nav a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+header nav a:hover {
+  color: var(--red-color);
+}
+header .header-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+header .search-icon {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+header .search-icon svg {
+  fill: var(--primary-text-color);
+  transition: fill 0.3s ease;
+}
+header .language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header .language-switcher .lang-option {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+header .language-switcher .lang-divider {
+  color: #666666;
+  font-size: 13px;
+}
+header .globe-icon {
+  width: 20px;
+  height: 20px;
+}
+header .globe-icon svg {
+  fill: var(--red-color);
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+footer {
+  background-color: #0f0f0f;
+  padding: 40px 20px;
+  border-top: 1px solid #2a2a2a;
+}
+footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 60px;
+  align-items: center;
+}
+footer .footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer .footer-address {
+  color: #888888;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+footer .footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer-center .footer-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+footer .footer-center .footer-logo span {
+  color: var(--red-color);
+}
+footer .footer-center .footer-social {
+  display: flex;
+  gap: 12px;
+}
+footer .footer-social-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+footer .footer-social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+footer .footer-social-icon.telegram {
+  background-color: #0088cc;
+}
+footer .footer-social-icon.twitter {
+  background-color: #1da1f2;
+}
+footer .footer-social-icon.facebook {
+  background-color: #1877f2;
+}
+footer .footer-social-icon.linkedin {
+  background-color: #0077b5;
+}
+footer .footer-social-icon.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+footer .footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+footer .footer-right .footer-phone {
+  color: #888888;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+}
+footer .footer-right .footer-email-link {
+  color: var(--red-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+footer .footer-right .footer-email-icon {
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 480px) {
+  footer .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  footer .footer-left,
+  footer .footer-right,
+  footer .footer-center {
+    align-items: center;
+  }
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.reviews-section {
+  background: #2b2b2b;
+  padding: 60px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reviews-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+.reviews-header h2 span {
+  color: #ff3b39;
+}
+
+.reviews-navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nav-button svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.review-card {
+  background: #333333;
+  border: 1px solid #8E8E8E;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 280px;
+  flex: 1;
+}
+.review-card .audio-player audio {
+  width: 100%;
+  height: 40px;
+  margin-top: 80px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.audio-icon {
+  font-size: 24px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.author-avatar svg {
+  width: 100%;
+  height: 100%;
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+
+.author-position {
+  font-size: 12px;
+  color: #888888;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.stats-section {
+  background: #2b2b2b;
+  padding: 60px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.stats-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 50px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  text-align: center;
+  position: relative;
+  padding: 10px;
+}
+.stat-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 80px;
+  background: #ff3b39;
+}
+
+.stat-number {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.4;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.news {
+  background-color: #1a1a1a;
+  padding: 100px 20px;
+  border-top: 1px solid #2a2a2a;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.news-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.news-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.news-navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #262626;
+  border: 2px solid #444444;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.news-card {
+  background-color: #262626;
+  border: 2px solid #444444;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.news-card:not(:last-child) {
+  border-left: 1px solid #ff3b39;
+}
+
+.news-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  background-color: #1a1a1a;
+}
+.news-image img, .news-image video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-headline {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.news-description {
+  color: #888888;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.news-date {
+  color: #666666;
+  font-size: 0.85rem;
+  margin-top: auto;
+}
+
+.news-cta-container {
+  display: flex;
+  justify-content: center;
+}
+
+.news-cta {
+  display: inline-block;
+  background-color: transparent;
+  color: #ff3b39;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 2px solid #ff3b39;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.news-cta:hover {
+  background-color: #ff3b39;
+  color: #1a1a1a;
+}
+
+@media (max-width: 480px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .news-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.specialties-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 80px;
+  text-align: center;
+}
+.specialties-section h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 20px;
+}
+.specialties-section > p {
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.specialty-card {
+  background: #333333;
+  border: 1px solid #8E8E8E;
+  border-radius: 20px;
+  padding: 20px;
+  width: 480px;
+  text-align: left;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.specialty-card:hover {
+  transform: translateY(-5px);
+}
+.specialty-card::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>') no-repeat center;
+  background-size: contain;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+.specialty-number {
+  font-size: 72px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+.specialty-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.hero {
+  background-color: #545353;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  margin-top: 20px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+.hero-content h1 {
+  font-family: "Geologica", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.hero-content p {
+  font-family: "Geologica", sans-serif;
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #ff3b39;
+  color: #ffffff;
+  font-family: "Geologica", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.cta-button:hover {
+  background: #ff1a18;
+}
+
+.hero-image {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hero-image img {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.science-section {
+  background: #3a3a3a;
+  padding: 60px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.science-section img {
+  width: 100%;
+  height: auto;
+}
+
+.science-graphics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex: 1;
+}
+.science-graphics .graphic-card {
+  background: #2b2b2b;
+  border: 1px solid #444444;
+  padding: 25px;
+}
+.science-graphics .graphic-card:first-child {
+  grid-column: 1/-1;
+}
+
+.graphic-header {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.graphic-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #555555;
+}
+
+.bars-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  height: 80px;
+}
+
+.bar {
+  flex: 1;
+  background: #ff3b39;
+  border-radius: 3px 3px 0 0;
+  transition: all 0.3s ease;
+}
+.bar:nth-child(1) {
+  height: 60%;
+}
+.bar:nth-child(2) {
+  height: 85%;
+}
+.bar:nth-child(3) {
+  height: 45%;
+}
+.bar:nth-child(4) {
+  height: 70%;
+}
+.bar:nth-child(5) {
+  height: 95%;
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.donut-chart {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: conic-gradient(#ff3b39 0% 65%, #555555 65% 100%);
+  position: relative;
+}
+.donut-chart::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background: #2b2b2b;
+  border-radius: 50%;
+}
+
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.legend-line {
+  width: 30px;
+  height: 2px;
+  background: #555555;
+}
+
+.science-content {
+  flex: 1;
+}
+.science-content h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+.science-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.science-content p {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.science-button {
+  background: #ff3b39;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.science-button:hover {
+  background: #ff1a18;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.partners-section {
+  background: #3a3a3a;
+  padding: 80px 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.partners-section h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 60px;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 80px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  opacity: 0.4;
+}
+.partner-logo:hover {
+  opacity: 0.7;
+}
+
+.logo-nix {
+  font-size: 56px;
+  font-weight: 300;
+  color: #888888;
+  font-family: "Geologica", sans-serif;
+  letter-spacing: 3px;
+}
+
+.logo-sigma {
+  font-size: 38px;
+  font-weight: 600;
+  color: #888888;
+  font-family: "Geologica", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-sigma::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 18px solid #888888;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+.logo-globallogic {
+  font-size: 24px;
+  font-weight: 400;
+  color: #888888;
+  font-family: "Geologica", sans-serif;
+}
+.logo-globallogic::first-letter {
+  font-weight: 600;
+}
+
+.logo-epam {
+  font-size: 40px;
+  font-weight: 300;
+  color: #888888;
+  font-family: "Courier New", monospace;
+  letter-spacing: 8px;
+}
+
+.logo-softserve {
+  font-size: 36px;
+  font-weight: 300;
+  color: #888888;
+  font-family: "Geologica", sans-serif;
+}
+.logo-softserve span {
+  font-weight: 700;
+}
+
+.logo-dataart {
+  font-size: 38px;
+  font-weight: 700;
+  color: #888888;
+  font-family: "Geologica", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.contacts-section {
+  background: #1a1a1a;
+  padding: 80px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contacts-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contacts-container h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  margin-bottom: 30px;
+}
+
+.contacts-address {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.contacts-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-column {
+  flex: 1;
+  text-align: center;
+}
+.contact-column h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #888888;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-item {
+  font-size: 14px;
+  color: #ff3b39;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+.contact-item:hover {
+  color: #ff1a18;
+}
+
+.contact-note {
+  font-size: 12px;
+  color: #666666;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.social-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.course {
+  background-color: #1a1a1a;
+  padding: 80px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.course-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.course-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.course-number {
+  background-color: #1a1a1a;
+  color: #888888;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 15px 30px;
+  border: 1px solid #2a2a2a;
+}
+
+.course-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1024px) {
+  .course-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.course-semester {
+  background-color: #0a0a0a;
+  border: 1px solid #2a2a2a;
+}
+
+.semester-head {
+  background-color: #0f0f0f;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.semester-name,
+.semester-credits {
+  font-size: 13px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.semester-subjects {
+  background-color: #1a1a1a;
+}
+
+.subject-row {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #2a2a2a;
+  transition: all 0.3s ease;
+}
+.subject-row:last-child {
+  border-bottom: none;
+}
+.subject-row:hover {
+  background-color: #0a0a0a;
+}
+
+.subject-icon {
+  width: 40px;
+  font-size: 15px;
+  color: #666666;
+  flex-shrink: 0;
+}
+.subject-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.subject-name {
+  flex: 1;
+  font-size: 14px;
+  color: #999999;
+  line-height: 1.6;
+}
+
+.subject-credits {
+  width: 60px;
+  text-align: right;
+  font-size: 14px;
+  color: #888888;
+  font-weight: 600;
+}
+
+.course-description {
+  color: #888888;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.course-description p {
+  margin-bottom: 20px;
+}
+.course-description p:last-child {
+  margin-bottom: 0;
+}
+.course-description strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+.course-description em {
+  color: #666666;
+  font-style: italic;
+}
+.course-description a {
+  color: #ff3b39;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.course-description a:hover {
+  color: #ff1a18;
+  text-decoration: underline;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.form {
+  background-color: #1a1a1a;
+  padding: 60px 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.form-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.image-form img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content-wrapper {
+  flex: 1;
+  background-color: #1a1a1a;
+  padding: 60px 80px;
+  color: #ffffff;
+}
+
+.form-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 40px 0;
+  letter-spacing: 2px;
+}
+
+.webform {
+  max-width: 600px;
+}
+
+.item-form {
+  margin-bottom: 35px;
+}
+.item-form label {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.form-text,
+.form-tel,
+.form-email {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #888888;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 0;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+.form-text::placeholder,
+.form-tel::placeholder,
+.form-email::placeholder {
+  color: #888888;
+  font-size: 13px;
+}
+.form-text:focus,
+.form-tel:focus,
+.form-email:focus {
+  border-bottom-color: #666666;
+}
+
+.form-textarea-wrapper {
+  width: 100%;
+}
+
+.form-textarea {
+  width: 100%;
+  background-color: #262626;
+  border: 1px solid #444444;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 12px;
+  outline: none;
+  box-sizing: border-box;
+  resize: vertical;
+  font-family: "Geologica", sans-serif;
+  min-height: 120px;
+  transition: all 0.3s ease;
+}
+.form-textarea:focus {
+  border-color: #888888;
+}
+
+.form-actions {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.webform-button {
+  background-color: #d4d4d4;
+  color: #1a1a1a;
+  border: none;
+  padding: 12px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.webform-button:hover {
+  background-color: #e4e4e4;
+}
+
+@media (min-width: 768px) {
+  .form-body {
+    flex-direction: column;
+  }
+  .content-wrapper {
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 480px) {
+  .content-wrapper {
+    padding: 30px 20px;
+  }
+  .form-title {
+    font-size: 24px;
+  }
+  .image-form {
+    display: none;
+  }
+  .form-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

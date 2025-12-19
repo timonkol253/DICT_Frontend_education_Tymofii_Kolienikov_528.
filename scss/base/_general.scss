@@ -2,6 +2,25 @@
 @import "../variables/fonts";
 @import "../abstractions/mixins";
 
+// CSS Custom Properties для теми
+:root {
+  --primary-color: #{$primary};
+  --primary-text-color: #{$primary-light};
+  --red-color: #{$red};
+  --red-hover-color: #{$red-hover};
+  --grey-color: #{$grey};
+  --silver-color: #{$silver};
+}
+
+[data-theme="light"] {
+  --primary-color: #{$primary-light};
+  --primary-text-color: #{$primary};
+  --red-color: #{$red};
+  --red-hover-color: #{$red-hover};
+  --grey-color: #{$grey};
+  --silver-color: #{$silver};
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +28,12 @@
 }
 
 body {
-  font-family: $font-family-primary;
-  background-color: $color-dark-quaternary;
+  font-family: $comfortaa;
+  background: var(--primary-color);
+  color: var(--primary-text-color);
   max-width: 80em;
   margin: 0 auto;
   padding: 0 16px;
-  color: $color-text-primary;
 }
 
 html, body {
@@ -23,25 +42,51 @@ html, body {
 
 // Глобальні стилі для текста
 p {
-  color: $color-text-secondary;
+  color: var(--primary-text-color);
 }
 
 a {
-  color: $color-primary;
+  color: var(--red-color);
   text-decoration: none;
   @include transition;
 
   &:hover {
-    color: $color-accent-hover;
+    color: var(--red-hover-color);
   }
 }
 
-// Гіперпосилання за замовчуванням
-button, input[type="button"], input[type="submit"] {
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text-color);
+  font-family: $geologica;
+}
+
+// Кнопки
+.button, button {
+  background: var(--red-color);
+  color: var(--primary-text-color);
+  width: fit-content;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin: 40px 0;
+  border: 1px solid var(--red-color);
   cursor: pointer;
+  @include transition;
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    background: var(--red-hover-color);
+    border-color: var(--red-hover-color);
+  }
+
+  &:focus {
+    background: var(--primary-color);
+  }
 }
 
 // Видалення стандартного стилю форм
 input, textarea, select {
-  font-family: $font-family-primary;
+  font-family: $comfortaa;
 }

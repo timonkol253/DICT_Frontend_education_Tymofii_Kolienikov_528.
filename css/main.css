@@ -1,3 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Geologica:wght@100..900&display=swap");
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+:root {
+  --primary-color: #1d1d1d;
+  --primary-text-color: #f8f8f8;
+  --red-color: #ff3b39;
+  --red-hover-color: #ff1a18;
+  --grey-color: #7c7c7c;
+  --silver-color: #bfbfbf;
+}
+
+[data-theme=light] {
+  --primary-color: #f8f8f8;
+  --primary-text-color: #1d1d1d;
+  --red-color: #ff3b39;
+  --red-hover-color: #ff1a18;
+  --grey-color: #7c7c7c;
+  --silver-color: #bfbfbf;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +119,12 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  background-color: #3a3a3a;
+  font-family: "Comfortaa", sans-serif;
+  background: var(--primary-color);
+  color: var(--primary-text-color);
   max-width: 80em;
   margin: 0 auto;
   padding: 0 16px;
-  color: #ffffff;
 }
 
 html, body {
@@ -18,24 +132,116 @@ html, body {
 }
 
 p {
-  color: #cccccc;
+  color: var(--primary-text-color);
 }
 
 a {
-  color: #ff4655;
+  color: var(--red-color);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #e63946;
+  color: var(--red-hover-color);
 }
 
-button, input[type=button], input[type=submit] {
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-text-color);
+  font-family: "Geologica", sans-serif;
+}
+
+.button, button {
+  background: var(--red-color);
+  color: var(--primary-text-color);
+  width: fit-content;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin: 40px 0;
+  border: 1px solid var(--red-color);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button p, button p {
+  margin: 0;
+}
+.button:hover, button:hover {
+  background: var(--red-hover-color);
+  border-color: var(--red-hover-color);
+}
+.button:focus, button:focus {
+  background: var(--primary-color);
 }
 
 input, textarea, select {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 header {
@@ -53,12 +259,12 @@ header .container {
 header .logo {
   font-size: 40px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   text-decoration: none;
   letter-spacing: 1px;
 }
 header .logo span {
-  color: #ff4655;
+  color: var(--red-color);
 }
 header nav {
   display: flex;
@@ -66,7 +272,7 @@ header nav {
   gap: 35px;
 }
 header nav a {
-  color: #ffffff;
+  color: var(--primary-text-color);
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
@@ -75,7 +281,7 @@ header nav a {
   font-weight: 500;
 }
 header nav a:hover {
-  color: #ff4655;
+  color: var(--red-color);
 }
 header .header-right {
   display: flex;
@@ -88,7 +294,7 @@ header .search-icon {
   cursor: pointer;
 }
 header .search-icon svg {
-  fill: #ffffff;
+  fill: var(--primary-text-color);
   transition: fill 0.3s ease;
 }
 header .language-switcher {
@@ -97,7 +303,7 @@ header .language-switcher {
   gap: 8px;
 }
 header .language-switcher .lang-option {
-  color: #ffffff;
+  color: var(--primary-text-color);
   text-decoration: none;
   font-size: 13px;
   text-transform: uppercase;
@@ -112,7 +318,76 @@ header .globe-icon {
   height: 20px;
 }
 header .globe-icon svg {
-  fill: #ff4655;
+  fill: var(--red-color);
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 footer {
@@ -147,11 +422,11 @@ footer .footer-center {
 footer .footer-center .footer-logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 footer .footer-center .footer-logo span {
-  color: #ff4655;
+  color: var(--red-color);
 }
 footer .footer-center .footer-social {
   display: flex;
@@ -201,7 +476,7 @@ footer .footer-right .footer-phone {
   display: block;
 }
 footer .footer-right .footer-email-link {
-  color: #ff4655;
+  color: var(--red-color);
   text-decoration: none;
   font-size: 0.9rem;
   display: flex;
@@ -225,6 +500,75 @@ footer .footer-right .footer-email-icon {
   }
 }
 
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
 .reviews-section {
   background: #2b2b2b;
   padding: 60px 80px;
@@ -244,10 +588,10 @@ footer .footer-right .footer-email-icon {
 .reviews-header h2 {
   font-size: 32px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
 }
 .reviews-header h2 span {
-  color: #ff4655;
+  color: #ff3b39;
 }
 
 .reviews-navigation {
@@ -344,6 +688,75 @@ footer .footer-right .footer-email-icon {
   color: #888888;
 }
 
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
 .stats-section {
   background: #2b2b2b;
   padding: 60px 80px;
@@ -353,7 +766,7 @@ footer .footer-right .footer-email-icon {
 .stats-section h2 {
   font-size: 32px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   margin-bottom: 50px;
 }
 
@@ -378,7 +791,7 @@ footer .footer-right .footer-email-icon {
   transform: translateY(-50%);
   width: 1px;
   height: 80px;
-  background: #ff4655;
+  background: #ff3b39;
 }
 
 .stat-number {
@@ -395,6 +808,75 @@ footer .footer-right .footer-email-icon {
   line-height: 1.4;
   max-width: 120px;
   margin: 0 auto;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .news {
@@ -460,7 +942,7 @@ footer .footer-right .footer-email-icon {
   flex-direction: column;
 }
 .news-card:not(:last-child) {
-  border-left: 1px solid #ff4655;
+  border-left: 1px solid #ff3b39;
 }
 
 .news-image {
@@ -513,19 +995,19 @@ footer .footer-right .footer-email-icon {
 .news-cta {
   display: inline-block;
   background-color: transparent;
-  color: #ff4655;
+  color: #ff3b39;
   padding: 16px 40px;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
-  border: 2px solid #ff4655;
+  border: 2px solid #ff3b39;
   border-radius: 4px;
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 .news-cta:hover {
-  background-color: #ff4655;
+  background-color: #ff3b39;
   color: #1a1a1a;
 }
 
@@ -539,6 +1021,75 @@ footer .footer-right .footer-email-icon {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
 .specialties-section {
   max-width: 1200px;
   margin: 40px auto;
@@ -548,7 +1099,7 @@ footer .footer-right .footer-email-icon {
 .specialties-section h2 {
   font-size: 42px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   margin-bottom: 20px;
 }
 .specialties-section > p {
@@ -609,6 +1160,75 @@ footer .footer-right .footer-email-icon {
   line-height: 1.4;
 }
 
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
 .hero {
   background-color: #545353;
   margin-top: 40px;
@@ -627,7 +1247,7 @@ footer .footer-right .footer-email-icon {
   max-width: 50%;
 }
 .hero-content h1 {
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: #ffffff;
@@ -635,7 +1255,7 @@ footer .footer-right .footer-email-icon {
   margin-bottom: 25px;
 }
 .hero-content p {
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   font-size: 14px;
   color: #cccccc;
   line-height: 1.6;
@@ -643,9 +1263,9 @@ footer .footer-right .footer-email-icon {
 }
 
 .cta-button {
-  background: #ff4655;
+  background: #ff3b39;
   color: #ffffff;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -656,7 +1276,7 @@ footer .footer-right .footer-email-icon {
   transition: all 0.3s ease;
 }
 .cta-button:hover {
-  background: #e63946;
+  background: #ff1a18;
 }
 
 .hero-image {
@@ -670,6 +1290,75 @@ footer .footer-right .footer-email-icon {
 }
 .hero-image img {
   height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .science-section {
@@ -726,7 +1415,7 @@ footer .footer-right .footer-email-icon {
 
 .bar {
   flex: 1;
-  background: #ff4655;
+  background: #ff3b39;
   border-radius: 3px 3px 0 0;
   transition: all 0.3s ease;
 }
@@ -756,7 +1445,7 @@ footer .footer-right .footer-email-icon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: conic-gradient(#ff4655 0% 65%, #555555 65% 100%);
+  background: conic-gradient(#ff3b39 0% 65%, #555555 65% 100%);
   position: relative;
 }
 .donut-chart::after {
@@ -797,7 +1486,7 @@ footer .footer-right .footer-email-icon {
 .science-content h2 {
   font-size: 38px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   margin-bottom: 25px;
   line-height: 1.2;
 }
@@ -815,7 +1504,7 @@ footer .footer-right .footer-email-icon {
 }
 
 .science-button {
-  background: #ff4655;
+  background: #ff3b39;
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
@@ -826,7 +1515,76 @@ footer .footer-right .footer-email-icon {
   transition: all 0.3s ease;
 }
 .science-button:hover {
-  background: #e63946;
+  background: #ff1a18;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .partners-section {
@@ -839,7 +1597,7 @@ footer .footer-right .footer-email-icon {
 .partners-section h2 {
   font-size: 38px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   margin-bottom: 60px;
 }
 
@@ -867,7 +1625,7 @@ footer .footer-right .footer-email-icon {
   font-size: 56px;
   font-weight: 300;
   color: #888888;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   letter-spacing: 3px;
 }
 
@@ -875,7 +1633,7 @@ footer .footer-right .footer-email-icon {
   font-size: 38px;
   font-weight: 600;
   color: #888888;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -893,7 +1651,7 @@ footer .footer-right .footer-email-icon {
   font-size: 24px;
   font-weight: 400;
   color: #888888;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
 }
 .logo-globallogic::first-letter {
   font-weight: 600;
@@ -911,7 +1669,7 @@ footer .footer-right .footer-email-icon {
   font-size: 36px;
   font-weight: 300;
   color: #888888;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
 }
 .logo-softserve span {
   font-weight: 700;
@@ -921,10 +1679,79 @@ footer .footer-right .footer-email-icon {
   font-size: 38px;
   font-weight: 700;
   color: #888888;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .contacts-section {
@@ -942,7 +1769,7 @@ footer .footer-right .footer-email-icon {
 .contacts-container h2 {
   font-size: 38px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--primary-text-color);
   margin-bottom: 30px;
 }
 
@@ -976,12 +1803,12 @@ footer .footer-right .footer-email-icon {
 
 .contact-item {
   font-size: 14px;
-  color: #ff4655;
+  color: #ff3b39;
   margin-bottom: 8px;
   transition: all 0.3s ease;
 }
 .contact-item:hover {
-  color: #e63946;
+  color: #ff1a18;
 }
 
 .contact-note {
@@ -996,24 +1823,98 @@ footer .footer-right .footer-email-icon {
   justify-content: center;
 }
 
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
 .social-icon {
   width: 35px;
   height: 35px;
-  border-radius: 50%;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .social-icon img {
-  width: 18px;
-  height: 18px;
-  filter: brightness(0) invert(1);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .course {
@@ -1155,13 +2056,82 @@ footer .footer-right .footer-email-icon {
   font-style: italic;
 }
 .course-description a {
-  color: #ff4655;
+  color: #ff3b39;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 .course-description a:hover {
-  color: #e63946;
+  color: #ff1a18;
   text-decoration: underline;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  color: var(--primary-text-color);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Geologica", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 38px;
+}
+
+h2, .h2 {
+  font-size: 32px;
+}
+
+h3, .h3 {
+  font-size: 28px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+.p, p {
+  font-size: 14px;
+  line-height: 1.2;
+  margin: 12px 0;
+}
+
+.small, small {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.scc_large-text, .large {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: var(--red-color);
+  font-weight: 400;
+  text-decoration: underline;
+}
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
 }
 
 .form {
@@ -1260,7 +2230,7 @@ footer .footer-right .footer-email-icon {
   outline: none;
   box-sizing: border-box;
   resize: vertical;
-  font-family: Arial, sans-serif;
+  font-family: "Geologica", sans-serif;
   min-height: 120px;
   transition: all 0.3s ease;
 }

@@ -19,12 +19,12 @@ header {
   .logo {
     font-size: $font-size-7xl;
     font-weight: $font-weight-bold;
-    color: $color-text-primary;
+    color: var(--primary-text-color);
     text-decoration: none;
     letter-spacing: 1px;
 
     span {
-      color: $color-primary;
+      color: var(--red-color);
     }
   }
 
@@ -50,7 +50,7 @@ header {
     cursor: pointer;
 
     svg {
-      fill: $color-text-primary;
+      fill: var(--primary-text-color);
       @include transition(fill);
     }
   }
@@ -61,7 +61,7 @@ header {
     gap: 8px;
 
     .lang-option {
-      color: $color-text-primary;
+      color: var(--primary-text-color);
       text-decoration: none;
       font-size: $font-size-sm;
       text-transform: uppercase;
@@ -79,7 +79,7 @@ header {
     height: 20px;
 
     svg {
-      fill: $color-primary;
+      fill: var(--red-color);
     }
   }
 }
