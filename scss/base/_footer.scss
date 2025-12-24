@@ -39,11 +39,11 @@ footer {
     .footer-logo {
       font-size: 1.8rem;
       font-weight: $font-weight-bold;
-      color: $color-text-primary;
+      color: var(--primary-text-color);
       text-decoration: none;
 
       span {
-        color: $color-primary;
+        color: var(--red-color);
       }
     }
 
@@ -109,7 +109,7 @@ footer {
     }
 
     .footer-email-link {
-      color: $color-primary;
+      color: var(--red-color);
       text-decoration: none;
       font-size: 0.9rem;
       display: flex;

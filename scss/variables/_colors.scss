@@ -1,7 +1,12 @@
-// Кольори сайту
-$color-primary: #ff4655;
-$color-primary-dark: #e63946;
+// Основні кольори для PR7
+$primary: #1d1d1d;
+$primary-light: #f8f8f8;
+$grey: #7c7c7c;
+$red: #ff3b39;
+$red-hover: #ff1a18;
+$silver: #bfbfbf;
 
+// Додаткові кольори
 $color-dark-bg: #1a1a1a;
 $color-dark-secondary: #262626;
 $color-dark-tertiary: #333333;
@@ -22,3 +27,6 @@ $color-border-lighter: #1a1a1a;
 
 $color-accent: #ff4655;
 $color-accent-hover: #e63946;
+
+$color-primary: $red;
+$color-primary-dark: $red-hover;
